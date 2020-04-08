@@ -1,0 +1,18 @@
+{
+  "short_name": "News Extension",
+  "name": "Breaking News Extension",
+  "browser_action": {
+    "default_popup": "index.html",
+    "default_icon": "hello_extensions.png"
+  },
+  "chrome_url_overrides": {
+    "newtab": "index.html"
+  },
+  "version": "1.0",
+  "content_security_policy": "script-src 'self' 'sha256-JOs+AEVlMPH5k/CMUCACjmaX6PjkjAuQIz6WMfwp8ck='; object-src 'self'",
+  "manifest_version": 2,
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
